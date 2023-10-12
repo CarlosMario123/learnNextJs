@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import { View } from "@/components/plantillas/view";
+
 
 export default function Home() {
   return (
-
-         <h1>home page</h1>
-
+      <div className="w-full h-screen">
+           <View/>
+      </div>
   )
 }
